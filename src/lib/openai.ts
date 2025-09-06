@@ -2,7 +2,7 @@ import { OpenAI } from "openai";
 
 // Initialize OpenAI client
 export const openai = new OpenAI({
-  apiKey: "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", // Using hardcoded key for development
+  apiKey: process.env.OPENAI_API_KEY!,
 });
 
 // Generate embeddings from text

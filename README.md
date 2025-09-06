@@ -16,7 +16,7 @@ This application allows users to upload PDF documents and ask questions about th
 - **Backend**: Next.js API Routes
 - **AI**: OpenAI's API (embeddings and GPT models)
 - **Vector Database**: Qdrant
-- **PDF Processing**: pdf-parse
+- **PDF Processing**: pdf-lib
 
 ## Prerequisites
 

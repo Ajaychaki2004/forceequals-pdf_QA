@@ -12,8 +12,8 @@ if (typeof process !== "undefined" && !process.env.NEXT_RUNTIME) {
 
 // Create client with optimized settings
 export const qdrant = new QdrantClient({
-  url: "https://a34268c3-aa86-4215-9c60-7ca34fd334b9.us-west-2-0.aws.cloud.qdrant.io:6333",
-  apiKey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2Nlc3MiOiJtIn0.AG_RaPJX3u3g-aLlLHr6Wja09J0_xZivyIMTLIvpEJE",
+  url: process.env.QDRANT_URL as string,
+  apiKey: process.env.QDRANT_API_KEY as string,
   
   // Performance and reliability settings
   checkCompatibility: false, // Skip version compatibility check
