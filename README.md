@@ -29,7 +29,7 @@ This application allows users to upload PDF documents and ask questions about th
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/pdf-qa.git
+git clone https://github.com/Ajaychaki2004/forceequals-pdf_QA.git
 cd pdf-qa
 ```
 
