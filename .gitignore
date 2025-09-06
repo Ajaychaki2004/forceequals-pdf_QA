@@ -35,6 +35,7 @@ yarn-error.log*
 .env.development
 .env.test
 .env.production
+.env.example
 # Include example env file if needed
 !.env.example
 
